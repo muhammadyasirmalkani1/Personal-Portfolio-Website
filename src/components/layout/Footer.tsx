@@ -54,27 +54,27 @@ const Footer = () => {
             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/" className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
+                <a href="#Home" className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
                   Home
                 </a>
               </li>
               <li>
-                <a href="/about" className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
+                <a href="#about" className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
                   About
                 </a>
               </li>
               <li>
-                <a href="/experience" className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
+                <a href="#experience" className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
                   Experience
                 </a>
               </li>
               <li>
-                <a href="/skills" className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
+                <a href="#skills" className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
                   Skills
                 </a>
               </li>
               <li>
-                <a href="/contact" className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
+                <a href="#contact" className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
                   Contact
                 </a>
               </li>
@@ -85,10 +85,10 @@ const Footer = () => {
             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Contact</h3>
             <ul className="space-y-2">
               <li className="text-gray-600 dark:text-gray-400">
-                <span className="font-semibold">Email:</span> contact@example.com
+                <span className="font-semibold">Email:</span> azdhapk2@gmail.com
               </li>
               <li className="text-gray-600 dark:text-gray-400">
-                <span className="font-semibold">Location:</span> San Francisco, CA
+                <span className="font-semibold">Location:</span> Dera Ghazi Khan, Punjab, Pakistan
               </li>
               <li className="text-gray-600 dark:text-gray-400">
                 <span className="font-semibold">Availability:</span> Full-time
