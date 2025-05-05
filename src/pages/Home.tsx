@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowRight, Download, Linkedin, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import SectionHeading from '../components/ui/SectionHeading';
 import ProjectCard from '../components/ui/ProjectCard';
@@ -73,7 +73,7 @@ const Home = () => {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
                 <span className="block">Hi, I'm</span>
                 <span className="bg-gradient-to-r from-purple-600 to-teal-500 bg-clip-text text-transparent">
-                  Muhammad Yasir Malkani
+                  M Yasir Malkani
                 </span>
               </h1>
               
@@ -121,7 +121,7 @@ const Home = () => {
               <div className="relative w-full aspect-square max-w-md mx-auto overflow-hidden rounded-2xl shadow-xl">
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-600/80 to-teal-500/80 opacity-90 mix-blend-multiply"></div>
                 <img
-                  src="https://images.unsplash.com/photo-1745427464150-ba3c717fbc6b?w=100&amp;auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  src="https://images.unsplash.com/photo-1746464201641-7d3d5fe00aec?w=100&amp;auto=compress&cs=tinysrgb&w=1100&h=600&dpr=2"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
@@ -153,7 +153,7 @@ const Home = () => {
           </div>
           
           <div className="mt-12 text-center">
-            <Link to="/projects" className="btn btn-outline">
+            <Link to="/projects" className="flex btn btn-outline">
               View All Projects
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
@@ -170,7 +170,7 @@ const Home = () => {
           <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
             Have a project in mind? Let's discuss how I can help bring your ideas to life.
           </p>
-          <Link to="/contact" className="btn bg-white text-purple-700 hover:bg-gray-100">
+          <Link to="/contact" className="flex btn-bg-white text-purple-700 hover:bg-gray-100">
             Get In Touch
             <ArrowRight className="ml-2 h-5 w-5" />
           </Link>

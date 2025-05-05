@@ -46,20 +46,20 @@ export interface Testimonial {
 export const projects: Project[] = [
   {
     id: 1,
-    title: 'E-commerce Platform',
+    title: 'SecureAPI',
     description: 'A fully responsive e-commerce platform built with React, Node.js, and MongoDB.',
     image: 'https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    link: 'https://example.com',
+    link: 'https://secure-api-website.vercel.app/',
     github: 'https://github.com',
   },
   {
     id: 2,
-    title: 'Task Management App',
+    title: 'Medical Health',
     description: 'A collaborative task management app with real-time updates using Socket.io.',
     image: 'https://images.pexels.com/photos/6804581/pexels-photo-6804581.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     tags: ['React', 'Express', 'Socket.io', 'PostgreSQL'],
-    link: 'https://example.com',
+    link: 'https://medical-health-device-landing-page.vercel.app/',
     github: 'https://github.com',
   },
   {
