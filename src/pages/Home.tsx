@@ -93,7 +93,7 @@ const Home = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
                 
-                <a href="/resume.pdf" className="btn btn-outline" download>
+                <a href="https://www.canva.com/design/DAGvAfM5OC4/GCxEulTjSfxfuMaXLNACOg/view?utm_content=DAGvAfM5OC4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9c770a379d" className="btn btn-outline" download>
                   Download CV
                   <Download className="ml-2 h-5 w-5" />
                 </a>
