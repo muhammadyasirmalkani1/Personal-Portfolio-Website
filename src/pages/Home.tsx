@@ -101,7 +101,7 @@ const Home = () => {
               
               <div className="flex space-x-4 mt-8">
                 <a 
-                  href="https://www.linkedin.com/in/unique-developers/" 
+                  href="https://bit.ly/3JiXUdM"
                   target="linkedin" 
                   rel="noopener noreferrer"
                   className="p-2 bg-white dark:bg-gray-800 rounded-full shadow-md text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200"
