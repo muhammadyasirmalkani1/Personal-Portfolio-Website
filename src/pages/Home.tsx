@@ -93,7 +93,7 @@ const Home = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
                 
-                <a href="/webhook.svg" download>
+                <a href="/CV.png" download>
                   Download CV
                   <Download className="ml-2 h-5 w-5" />
                 </a>
